@@ -1,0 +1,15 @@
+{
+    "id": "the-boathouse",
+    "name": "The Boathouse",
+    "address": "4708 E Old Main St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23231",
+    "phone": "804-622-2628",
+    "hours": "4:00 pm - 9:00 pm",
+    "lat": "37.518125",
+    "lon": "-77.416071",
+    "notes": [
+        "Glass boxes perched atop the river contain this modern eatery serving seafood and American grill fare"
+    ]
+}

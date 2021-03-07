@@ -1,0 +1,14 @@
+{
+    "id": "oak-and-apple-bbq",
+    "name": "Oak and Apple BBQ",
+    "address": "1814 E Main St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23223",
+    "phone": "804-477-3055",
+    "hours": "12:00 pm - 10:30 pm",
+    "lat": "37.520984",
+    "lon": "-77.412432",
+    "notes": [
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "shyndigz",
+    "name": "Shyndigz",
+    "address": "1903 W Cary St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23220",
+    "phone": "804-938-3449",
+    "hours": "9:00 am - 9:30 pm",
+    "lat": "37.547627",
+    "lon": "-77.465414",
+    "notes": [
+        "Vibrant dessert specialist featuring a rotating menu of elaborate cakes and pies made from scratch"
+    ]
+}

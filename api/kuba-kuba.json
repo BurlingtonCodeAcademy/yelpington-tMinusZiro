@@ -1,0 +1,15 @@
+ {
+        "id": "kuba-kuba",
+        "name": "Kuba Kuba",
+        "address": "1601 Park Ave.",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-355-8817",
+        "hours": "11:00 am - 9:00 pm",
+        "lat": "37.551296050000005",
+        "lon": "-77.45904236218541",
+        "notes": [
+            "Tiny, vibrant cage serving casual Cuban fare with wine, beer and brunch"
+        ]
+    }

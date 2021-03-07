@@ -1,0 +1,15 @@
+{
+    "id": "sabai",
+    "name": "Sabai",
+    "address": "2727 W Broad St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23220",
+    "phone": "804-367-4992",
+    "hours": "12:00 pm - 9:00 pm",
+    "lat": "37.561575",
+    "lon": "-77.469002",
+    "notes": [
+        "Hip hangout with a tropical vibe and an outdoor beer garden preparing Thai bites and creative cocktails"
+    ]
+}

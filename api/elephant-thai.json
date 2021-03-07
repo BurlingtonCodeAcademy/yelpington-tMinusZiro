@@ -1,0 +1,15 @@
+{
+    "id": "elephant-thai",
+    "name": "Elephant-Thai",
+    "address": "4401 W Broad St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23230",
+    "phone": "804-658-2146",
+    "hours": "11:00 am - 10:00 pm",
+    "lat": "37.576079",
+    "lon": "-77.487292",
+    "notes": [
+        "Comfy choice for Thai classics, including an all-you-can-eat lunch buffet, plus sushi and cocktails"
+    ]
+}

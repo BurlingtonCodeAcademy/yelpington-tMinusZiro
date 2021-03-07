@@ -1,0 +1,14 @@
+{
+    "id": "stone-brewing-tap-room",
+    "name": "Stone Brewing Tap Room",
+    "address": "4300 Williamsburg Ave",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23231",
+    "phone": "804-489-5902",
+    "hours": "2:00 pm - 8:00 pm",
+    "lat": "37.520984",
+    "lon": "-77.412432",
+    "notes": [
+    ]
+}

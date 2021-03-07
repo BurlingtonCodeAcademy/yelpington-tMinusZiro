@@ -1,0 +1,15 @@
+{
+    "id": "the-savory-grain",
+    "name": "The Savory Grain",
+    "address": "2043 W Broad St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23220",
+    "phone": "804-592-400",
+    "hours": "5:00 pm - 8:00 pm",
+    "lat": "37.556951",
+    "lon": "-77.461167",
+    "notes": [
+        "Farm fresh eats and local craft beers are the draw at this New American spot with weekly blues music"
+    ]
+}

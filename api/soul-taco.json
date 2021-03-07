@@ -1,0 +1,14 @@
+{
+    "id": "soul-taco",
+    "name": "Soul Taco",
+    "address": "1215 E Main St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23219",
+    "phone": "804-562-5763",
+    "hours": "11:30 am - 9:00 pm",
+    "lat": "37.536279",
+    "lon": "-77.433358",
+    "notes": [
+    ]
+}

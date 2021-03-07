@@ -1,0 +1,13 @@
+{
+    "id": "tazza-kitchen",
+    "name": "Tazza Kitchen",
+    "address": "1500 Roseneath Rd",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23230",
+    "phone": "804-372-0702",
+    "hours": "11:30 am - 8:30 pm",
+    "lat": "37.569892",
+    "lon": "-77.473867",
+    "notes": []
+}
