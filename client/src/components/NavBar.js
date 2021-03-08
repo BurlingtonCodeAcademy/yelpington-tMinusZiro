@@ -35,7 +35,7 @@ const NavBar = (props) => {
         {props.restaurantId.map((restName, index) => {
           return (
             <h4 key={index}>
-              <Link className="nav-list-item" to={`/api/${restName}`}>
+              <Link className="nav-list-item" to={`/restaurant/${restName}`}>
                 {saniString(restName)}
               </Link>
             </h4>

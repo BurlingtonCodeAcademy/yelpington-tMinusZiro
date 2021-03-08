@@ -1,13 +1,17 @@
 import React from "react";
 import { MapContainer, TileLayer, Polygon, Marker } from "react-leaflet";
 import { useState, useEffect } from "react";
+
 const Restaurant = (props) => {
   //state for individual restaurant
   const [divRest, setDivRest] = useState(null);
+  //state for user comments
+  const [comment, setComment] = useState("");
 
+  //fetch wrapped in a useEffect hook to constantly update restaurant page info
   useEffect(() => {
     if (!divRest) {
-      fetch(`/api/${props.match.params.id}`)
+      fetch(`/restaurant/${props.match.params.id}`)
         .then((res) => res.json())
         .then((singleRestaurant) => {
           setDivRest(singleRestaurant);
@@ -15,33 +19,25 @@ const Restaurant = (props) => {
     }
   });
 
-  function generateMap() {
-    if (divRest.lat) {
-      console.log(`Page Lat = ${divRest.lat}`);
-      <MapContainer
-        center={[divRest.lat, divRest.lon]}
-        zoom={15}
-        scrollWheelZoom={true}
-        zoomControl={true}
-        touchZoom={true}
-        dragging={true}
-        style={{ height: "500px", width: "800px" }}
-      >
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='<a href="https://github.com/cyclosm/cyclosm-cartocss-style/releases" title="CyclOSM - Open Bicycle render">CyclOSM</a> | Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        />
-        <Marker position={[divRest.lat, divRest.lon]} />
-      </MapContainer>;
-    }
-  }
+  //set the state of comment constantly as the user writes in the text area
+  const onChange = (e) => setComment(e.target.value);
 
+  //synthetic event to store comment in local storage
+  const handleFormSubmit = (e) => {
+    // setComment(e.target.value);
+    localStorage.setItem("comment", JSON.stringify(comment));
+  };
+
+  //Restaurant Page Layout
+  //Matches a very similar one to the home page except the info sidebar has different content
+  //map and info bar are stacked next to each other in a row
   return (
     <div id="restaurant-page-body">
       <header>
         <h1>RVA Yelpington</h1>
       </header>
       <main className="home-main">
+        {/*-------Info Section ------------*/}
         <div id="restaurant-page-nav">
           <div id="restInfo-and-comments">
             <h2>{divRest ? divRest.name : "Loading"}</h2>
@@ -64,23 +60,23 @@ const Restaurant = (props) => {
               {divRest ? divRest.phone : "Loading"}
             </h4>
             <div id="scroll-comments">
-              <h4>
+              <ul>
                 <strong className="rInfo-title">Comments:</strong>
                 <br />
-                {divRest ? divRest.notes : "Loading"}
-              </h4>
+                <li>{divRest ? divRest.notes : "Loading"}</li>
+                <li>{}</li>
+              </ul>
             </div>
           </div>
+          {/*Form inside Info Bar */}
           <div id="form-box">
-            <form id="form-wrapper" method="POST" action="">
-              <input
-                id="name-input"
-                type="text"
-                name="user_name"
-                placeholder="User Name"
+            <form id="form-wrapper" onSubmit={handleFormSubmit}>
+              <textarea
+                name="user_comment"
+                placeholder="Comment"
+                rows="5"
+                onChange={onChange}
               />
-
-              <textarea name="user_comment" placeholder="Comment" rows="5" />
 
               <input
                 id="submit-button"
@@ -91,7 +87,7 @@ const Restaurant = (props) => {
             </form>
           </div>
         </div>
-
+        {/*-----Map Section-----*/}
         <div className="map-wrapper">
           <MapContainer
             center={

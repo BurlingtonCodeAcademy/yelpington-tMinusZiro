@@ -12,7 +12,8 @@ const Home = (props) => {
   //restaurant id directory
   const [restaurantId, setRestaurantId] = useState([]);
 
-  //
+  //the main home page has a header and then stacked next to each other, a map with pins and a nav bar
+  //both the nav bar and map are both imported components
   return (
     <div id="home-body">
       <header>
