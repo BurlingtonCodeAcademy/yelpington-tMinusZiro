@@ -1,0 +1,15 @@
+{
+    "id": "perlys",
+    "name": "Perly's",
+    "address": "111 E Grace St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23219",
+    "phone": "804-912-1560",
+    "hours": "9:00 am - 3:00 pm",
+    "lat": "37.543881",
+    "lon": "-77.441436",
+    "notes": [
+        "Creative Jewish deli bites and dinners served in a funky, retro eatery decorated with old photos."
+    ]
+}

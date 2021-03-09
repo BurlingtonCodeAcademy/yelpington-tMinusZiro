@@ -1,0 +1,237 @@
+[
+    {
+        "id": "kuba-kuba",
+        "name": "Kuba Kuba",
+        "address": "1601 Park Ave.",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-355-8817",
+        "hours": "11:00 am - 9:00 pm",
+        "lat": "37.551296050000005",
+        "lon": "-77.45904236218541",
+        "notes": [
+            "Tiny, vibrant cage serving casual Cuban fare with wine, beer and brunch"
+        ]
+    },
+    {
+        "id": "perlys",
+        "name": "Perly's",
+        "address": "111 E Grace St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23219",
+        "phone": "804-912-1560",
+        "hours": "9:00 am - 3:00 pm",
+        "lat": "37.543881",
+        "lon": "-77.441436",
+        "notes": [
+            "Creative Jewish deli bites and dinners served in a funky, retro eatery decorated with old photos."
+        ]
+    },
+    {
+        "id": "shyndigz",
+        "name": "Shyndigz",
+        "address": "1903 W Cary St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-938-3449",
+        "hours": "9:00 am - 9:30 pm",
+        "lat": "37.547627",
+        "lon": "-77.465414",
+        "notes": [
+            "Vibrant dessert specialist featuring a rotating menu of elaborate cakes and pies made from scratch"
+        ]
+    },
+    {
+        "id": "the-savory-grain",
+        "name": "The Savory Grain",
+        "address": "2043 W Broad St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-592-400",
+        "hours": "5:00 pm - 8:00 pm",
+        "lat": "37.556951",
+        "lon": "-77.461167",
+        "notes": [
+            "Farm fresh eats and local craft beers are the draw at this New American spot with weekly blues music"
+        ]
+    },
+    {
+        "id": "edos-squid",
+        "name": "Edo's Squid",
+        "address": "411 N Harrison St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-864-5488",
+        "hours": "4:00 pm - 9:00 pm",
+        "lat": "37.550485",
+        "lon": "-77.453266",
+        "notes": [
+            "Casual brick lined restaurant with a full bar and plenty of calamari dishes on the menu"
+        ]
+    },
+    {
+        "id": "supper",
+        "name": "Supper",
+        "address": "1215 Summit Ave",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23230",
+        "phone": "804-353-0111",
+        "hours": "11 am - 9:00 pm",
+        "lat": "37.565599",
+        "lon": "-77.47306",
+        "notes": [
+            "Innovative American eats and weekend brunch in a rustic space with a quirky and ornate fixtures"
+        ]
+    },
+    {
+        "id": "sabai",
+        "name": "Sabai",
+        "address": "2727 W Broad St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23220",
+        "phone": "804-367-4992",
+        "hours": "12:00 pm - 9:00 pm",
+        "lat": "37.561575",
+        "lon": "-77.469002",
+        "notes": [
+            "Hip hangout with a tropical vibe and an outdoor beer garden preparing Thai bites and creative cocktails"
+        ]
+    },
+    {
+        "id": "tazza-kitchen",
+        "name": "Tazza Kitchen",
+        "address": "1500 Roseneath Rd",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23230",
+        "phone": "804-372-0702",
+        "hours": "11:30 am - 8:30 pm",
+        "lat": "37.569892",
+        "lon": "-77.473867",
+        "notes": []
+    },
+    {
+        "id": "elephant-thai",
+        "name": "Elephant-Thai",
+        "address": "4401 W Broad St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23230",
+        "phone": "804-658-2146",
+        "hours": "11:00 am - 10:00 pm",
+        "lat": "37.576079",
+        "lon": "-77.487292",
+        "notes": [
+            "Comfy choice for Thai classics, including an all-you-can-eat lunch buffet, plus sushi and cocktails"
+        ]
+    },
+    {
+        "id": "soul-taco",
+        "name": "Soul Taco",
+        "address": "1215 E Main St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23219",
+        "phone": "804-562-5763",
+        "hours": "11:30 am - 9:00 pm",
+        "lat": "37.536279",
+        "lon": "-77.433358",
+        "notes": [
+        ]
+    },
+    {
+        "id": "the-tobacco-company",
+        "name": "The Tobacco Company",
+        "address": "1201 E Cary St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23219",
+        "phone": "804-782-9555",
+        "hours": "5:00 am - 9:00 pm",
+        "lat": "37.535707",
+        "lon": "-77.434613",
+        "notes": [
+            "Island dishes and Southern comfort classics in a space with lively plants and vibrant tropical patterns"
+        ]
+    },
+    {
+        "id": "sine-irish-pub",
+        "name": "Sine Irish Pub",
+        "address": "1327 E Cary St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23219",
+        "phone": "804-649-7767",
+        "hours": "12:00 am - 10:00 pm",
+        "lat": "37.5346",
+        "lon": "-77.43286",
+        "notes": [
+            "Busy tavern serving pub fare with some Irish and regional options in a paneled space with a patio"
+        ]
+    },
+    {
+        "id": "bookbinders-seafood-and-steakhouse",
+        "name": "Bookbinder's Seafood and Steakhouse",
+        "address": "2306 E Cary St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23223",
+        "phone": "804-643-6900",
+        "hours": "5:00 pm - 9:00 pm",
+        "lat": "37.52927",
+        "lon": "-77.423703",
+        "notes": [
+            "A onetime tobacco warehouse, this elegant, brick walled eatery offers elevated Chesapeake fare"
+        ]
+    },
+    {
+        "id": "the-boathouse",
+        "name": "The Boathouse",
+        "address": "4708 E Old Main St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23231",
+        "phone": "804-622-2628",
+        "hours": "4:00 pm - 9:00 pm",
+        "lat": "37.518125",
+        "lon": "-77.416071",
+        "notes": [
+            "Glass boxes perched atop the river contain this modern eatery serving seafood and American grill fare"
+        ]
+    },
+    {
+        "id": "stone-brewing-tap-room",
+        "name": "Stone Brewing Tap Room",
+        "address": "4300 Williamsburg Ave",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23231",
+        "phone": "804-489-5902",
+        "hours": "2:00 pm - 8:00 pm",
+        "lat": "37.520984",
+        "lon": "-77.412432",
+        "notes": [
+        ]
+    },
+    {
+        "id": "oak-and-apple-bbq",
+        "name": "Oak and Apple BBQ",
+        "address": "1814 E Main St",
+        "city": "Richmond",
+        "state": "Virginia",
+        "zip": "23223",
+        "phone": "804-477-3055",
+        "hours": "12:00 pm - 10:30 pm",
+        "lat": "37.520984",
+        "lon": "-77.412432",
+        "notes": [
+        ]
+    }
+]

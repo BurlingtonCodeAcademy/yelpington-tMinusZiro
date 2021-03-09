@@ -1,0 +1,15 @@
+{
+    "id": "edos-squid",
+    "name": "Edo's Squid",
+    "address": "411 N Harrison St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23220",
+    "phone": "804-864-5488",
+    "hours": "4:00 pm - 9:00 pm",
+    "lat": "37.550485",
+    "lon": "-77.453266",
+    "notes": [
+        "Casual brick lined restaurant with a full bar and plenty of calamari dishes on the menu"
+    ]
+}

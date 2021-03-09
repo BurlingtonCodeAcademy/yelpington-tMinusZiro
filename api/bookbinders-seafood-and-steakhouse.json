@@ -1,0 +1,15 @@
+{
+    "id": "bookbinders-seafood-and-steakhouse",
+    "name": "Bookbinder's Seafood and Steakhouse",
+    "address": "2306 E Cary St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23223",
+    "phone": "804-643-6900",
+    "hours": "5:00 pm - 9:00 pm",
+    "lat": "37.52927",
+    "lon": "-77.423703",
+    "notes": [
+        "A onetime tobacco warehouse, this elegant, brick walled eatery offers elevated Chesapeake fare"
+    ]
+}

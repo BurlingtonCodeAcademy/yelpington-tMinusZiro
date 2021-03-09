@@ -1,0 +1,15 @@
+{
+    "id": "the-tobacco-company",
+    "name": "The Tobacco Company",
+    "address": "1201 E Cary St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23219",
+    "phone": "804-782-9555",
+    "hours": "5:00 am - 9:00 pm",
+    "lat": "37.535707",
+    "lon": "-77.434613",
+    "notes": [
+        "Island dishes and Southern comfort classics in a space with lively plants and vibrant tropical patterns"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "supper",
+    "name": "Supper",
+    "address": "1215 Summit Ave",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23230",
+    "phone": "804-353-0111",
+    "hours": "11 am - 9:00 pm",
+    "lat": "37.565599",
+    "lon": "-77.47306",
+    "notes": [
+        "Innovative American eats and weekend brunch in a rustic space with a quirky and ornate fixtures"
+    ]
+}

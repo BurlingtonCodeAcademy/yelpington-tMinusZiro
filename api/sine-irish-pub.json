@@ -1,0 +1,15 @@
+{
+    "id": "sine-irish-pub",
+    "name": "Sine Irish Pub",
+    "address": "1327 E Cary St",
+    "city": "Richmond",
+    "state": "Virginia",
+    "zip": "23219",
+    "phone": "804-649-7767",
+    "hours": "12:00 am - 10:00 pm",
+    "lat": "37.5346",
+    "lon": "-77.43286",
+    "notes": [
+        "Busy tavern serving pub fare with some Irish and regional options in a paneled space with a patio"
+    ]
+}
